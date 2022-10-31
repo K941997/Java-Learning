@@ -1,0 +1,39 @@
+package FileFolderRenameMoveCopy1;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.StandardCopyOption;
+
+/*
+ * IO FileFolder RenameMoveCopy:
+ * 
+ * */
+
+public class Example {
+	public static void main(String[] args) {
+		//Create File:
+		File file0 = new File("D:\\1_K941997_Java\\Apps\\Java_48_IOFileFolderRenameMoveCopy\\File0abc.txt");
+		File file1 = new File("D:\\1_K941997_Java\\Apps\\Java_48_IOFileFolderRenameMoveCopy\\File1abc.txt");
+		File file0Rename = new File("D:\\1_K941997_Java\\Apps\\Java_48_IOFileFolderRenameMoveCopy\\File0Rename.txt");
+		File file1Rename = new File("D:\\1_K941997_Java\\Apps\\Java_48_IOFileFolderRenameMoveCopy\\File1Rename.txt");
+		
+		//Rename File = renameTo:
+		file0.renameTo(file0Rename);
+		
+		//Rename File = Files.move:
+		try {
+			Files.move(file1.toPath(), file1Rename.toPath(), StandardCopyOption.REPLACE_EXISTING);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		//Move File = Create File Folder + Files.move:
+		File folderMoveFile = new File("D:\\1_K941997_Java\\Apps\\Java_48_IOFileFolderRenameMoveCopy\\FolderMoveFile\\File0Rename.txt");
+		try {
+			Files.move(file0Rename.toPath(), folderMoveFile.toPath(), StandardCopyOption.REPLACE_EXISTING);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	};
+}

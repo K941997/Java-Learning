@@ -1,0 +1,7 @@
+package Generic1;
+
+public class TestBox1 {
+	public static void main(String[] args) {
+		Box1 box = new Box1(15);
+	}
+}

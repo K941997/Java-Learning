@@ -1,0 +1,10 @@
+package Generic3CollectionsListInterface;
+
+/*
+ * Generic:
+ * 		- Dùng để gán dữ liệu, ép kiểu, đổi sang kiểu dữ liệu mới
+ * */
+
+public class Test {
+	
+}

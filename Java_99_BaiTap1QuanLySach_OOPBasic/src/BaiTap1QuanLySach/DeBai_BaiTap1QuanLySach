@@ -1,0 +1,10 @@
+OOP Basic
+/*
+ * Đề bài: Xây dựng 1 ứng dụng quản lý sách:
+ * - Sách: tên, giá bán, năm xuất bản, tác giả
+ * - Tác giả: tên, ngày sinh
+ * - Ngày sinh: ngày, tháng, năm
+ * - In ra màn hình tên 1 quyển sách ?
+ * - Cho biết quyển sách bất kỳ có được xuất bản cùng năm với 1 quyển sách nào đó hay không ?
+ * - Cho biết giá sách sau khi giảm giá x%, x được truyền vào như là 1 tham số
+ * */

@@ -1,0 +1,10 @@
+OOP Basic
+Đề bài:
+- Sinh viên: mã số, họ và tên, ngày tháng năm sinh, điểm trung bình, lớp
+- Ngày sinh: ngày, tháng, năm
+- Lớp: tên lớp, tên khoa
+
+Yêu cầu:
++ Cho biết tên khoa mà sinh viên đang học
++ Cho biết sinh viên có đậu hay không (điểm trung bình >= 5.0)
++ Kiểm tra sinh viên có ngày sinh giống ngày sinh của 1 sinh viên khác không 

@@ -1,0 +1,11 @@
+package ReadTextToFile1;
+
+/*
+ * Read Text From File:
+ * */
+
+public class Example {
+	public static void main(String[] args) {
+		
+	}
+}

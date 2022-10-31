@@ -1,0 +1,87 @@
+package FileFolderRead1;
+
+import java.io.File;
+import java.util.Scanner;
+
+/*
+ * File Folder Read:
+ * */
+
+public class Example {
+	File file;
+
+	//Constructor + Create File:
+	public Example(String nameFile) {
+		this.file = new File(nameFile);
+	}
+	
+	//Methods:
+	public boolean kiemTraThucThi() {
+		return this.file.canExecute();
+	}
+	
+	public boolean kiemTraDoc() {
+		return this.file.canRead();
+	}
+	
+	public boolean kiemTraGhi() {
+		return this.file.canWrite();
+	}
+	
+	public void inDuongDan() {
+		System.out.println(this.file.getAbsolutePath());
+	}
+	
+	public void inTenFile() {
+		System.out.println(this.file.getName());
+	}
+
+
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int luaChon = 0;
+		
+		System.out.println("Nhap ten File: ");
+		String nameFile = sc.nextLine();
+		Example exampleFile = new Example(nameFile);
+		
+		do {
+			System.out.println("---------- MENU ----------");
+			System.out.println("----- 1. Kiem tra file co the thuc thi");
+			System.out.println("----- 2. Kiem tra file co the doc");
+			System.out.println("----- 3. Kiem tra file co the ghi");
+			System.out.println("----- 4. In duong dan");
+			System.out.println("----- 5. In ten file");
+			System.out.println("----- 6. Kiem tra file la thu muc hay tap tin");
+			System.out.println("----- 7. In danh sach file con ben trong folder");
+			System.out.println("----- 8. In cay thu muc");
+			System.out.println("----- 0. Thoat chuong trinh");
+			System.out.println("----- Lua chon:");
+			
+			luaChon = sc.nextInt();
+			
+			switch (luaChon) {
+			case 1:
+				System.out.println("File co the thuc thi ko: " +exampleFile.kiemTraThucThi());
+				break;
+
+			case 2:
+				System.out.println("File co the doc ko: " +exampleFile.kiemTraDoc());
+				break;
+				
+			case 3:
+				System.out.println("File co the ghi ko: " +exampleFile.kiemTraGhi());
+				break;
+			
+			case 4:
+				System.out.println("Duong dan la: ");
+				break;
+				
+			default:
+				break;
+			}
+			
+		} while (luaChon != 0);
+	}
+}

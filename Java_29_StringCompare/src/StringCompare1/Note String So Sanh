@@ -1,0 +1,13 @@
+String Compare:
+- equals: so sánh ngang bằng =, có phân biệt hoa thường
+- equalsIgnoreCase: so sánh ngang bằng =, ko phân biệt hoa thường
+
+- compareTo: so sánh >, <, =, phân biệt hoa thường
+- compareToIgnoreCase: so sánh >, <, =, ko phân biệt hoa thường
+
+- regionMatches: so sánh 1 đoạn
+	+ boolean check = r1.regionMatches(2, r2, 0, 4);
+	+ regionMatches(kytuthu2cuar1, r2, kytuthu0cuar2, kytuthu4cuar2)
+	
+- startWith: kiểm tra chuỗi bắt đầu
+- endWith: kiểm tra chuỗi kết thúc

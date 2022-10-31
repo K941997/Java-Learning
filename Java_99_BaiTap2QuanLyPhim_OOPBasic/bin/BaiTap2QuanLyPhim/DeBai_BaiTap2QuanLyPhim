@@ -1,0 +1,11 @@
+OOP Basic
+Đề bài Quản Lý Phim:
+- Xây dựng chương trình Java Quản Lý Phim
+- 1 Bộ Phim gồm: tên phim, năm sản xuất, hãng sản xuất, giá vé, ngày chiếu
+- Hãng sản xuất gồm: tên hãng, quốc gia
+- Ngày chiếu gồm: ngày, tháng, năm
+
+Yêu cầu:
++ Kiểm tra xem giá vé 1 phim bất kỳ có rẻ hơn giá vé của 1 phim khác không ?
++ Cho biết tên của hãng sản xuất phim
++ Cho biết giá vé của phim khi có khuyến mãi (ví dụ sau khi khuyến mãi 10%, 20%), số tiền khuyến mãi giảm trừ theo % giá bán

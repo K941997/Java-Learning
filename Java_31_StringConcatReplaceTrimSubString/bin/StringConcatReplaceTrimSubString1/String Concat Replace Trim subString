@@ -1,0 +1,7 @@
+String Nối chuỗi, Thay thế chuỗi, Cắt chuỗi, Chuyển đổi chuỗi:
+- concat: nối chuỗi
+- replace: thay thế
+- toLowerCase: viết thường
+- toUpperCase: viết hoa
+- trim: cắt khoảng trắng
+- subString: cắt ký tự

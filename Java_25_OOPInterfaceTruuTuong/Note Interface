@@ -1,0 +1,14 @@
+Interface:
+- Interface là 1 bản thiết kế của 1 Class
+- Các Class Con kế thừa và hiện thực hóa Interface
+
+- Interface chỉ có các abstract method và các hằng số static final
+
+- Trong Main, Interface không thể được khởi tạo thành đối tượng từ Constructor (giống Abstract Class)
+
+- Interface có tính đa kế thừa implements 1 or n (khác Abstract Class chỉ kế thừa extends 1)
+
+Lưu ý:
+- 1 Class implements 1 hoặc nhiều Interface
+- 1 Interface extends 1 Interface
+- 1 Class extends 1 Class

@@ -1,0 +1,5 @@
+Xin chao, minh la K
+Du lieu: 
+3.14  la so Pi
+Student [id=1, name=Nguyen Ngoc Khanh]
+

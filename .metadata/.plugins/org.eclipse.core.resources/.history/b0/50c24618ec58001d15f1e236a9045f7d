@@ -1,0 +1,23 @@
+package PrintTextToFile1;
+
+import java.io.PrintWriter;
+
+/*
+ * Print Text To File:
+ * - Create PrintWriter pw File
+ * - pw
+ * */
+
+public class Example {
+	public static void main(String[] args) {
+		try {
+			PrintWriter pw = new PrintWriter("D:\\1_K941997_Java\\Apps\\Java_49_IOPrintTextToFile\\file1.txt", "UTF-8");
+			pw.println("Xin chao, minh la K");
+			pw.flush();
+			pw.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+}

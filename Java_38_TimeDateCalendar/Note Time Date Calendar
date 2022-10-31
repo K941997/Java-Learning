@@ -1,0 +1,21 @@
+Time, Date, Date Format, Calendar:
+
+- CurrentTimeMillis (Hàm lấy thời gian hiện tại):
+	+ long t1 = System.currentTimeMillis();
+	
+- TimeUnit (Chuyển đổi thời gian):
+	+ "3000 years = " +TimeUnit.DAYS.toSeconds(3000*365)
+	
+- Date (Ngày hiện tại, phải cộng thêm số):
+	+ Date d = new Date(System.currentTimeMillis());
+	  System.out.println(d.getDate()+ "/" +(d.getMonth()+1) + "/" +(d.getYear()+1900));
+	  
+- Calendar (Lịch hiện tại, phải cộng thêm số):
+	+ Calendar c = Calendar.getInstance();
+	  System.out.println(c.get(Calendar.DATE)+ "-" +(c.get(Calendar.MONTH)+1)+ "-" +c.get(Calendar.YEAR));
+	+ Thêm giờ: c.add(Calendar.HOUR, 30);
+	+ Thêm ngày: c.add(Calendar.DATE, 14);
+	
+- DateFormat:
+	+ DateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+	  System.out.println(df.format(d));

@@ -1,0 +1,39 @@
+package FileFolderDelete1;
+
+import java.io.File;
+
+/*
+ * File Folder Delete:
+ * */
+
+public class Example {
+	public static void xoaFile(File file) {
+		
+		if(file.isFile()) {
+			//Xoa file:
+			file.delete();
+			System.out.println("Da xoa: " +file.getAbsolutePath());
+		} else if(file.isDirectory()) {
+			//Xoa folder:
+			File[] fileChilds = file.listFiles();
+			for(File fileChild: fileChilds) {
+				//Xoa file con:
+				xoaFile(fileChild);
+			}
+			file.delete();
+		}
+	}
+	
+	public static void main(String[] args) {
+		File file0 = new File("D:\\1_K941997_Java\\Apps\\Java_47_FileFolderDelete\\F0");
+		File file1 = new File("D:\\1_K941997_Java\\Apps\\Java_47_FileFolderDelete\\F1");
+		File file2 = new File("D:\\1_K941997_Java\\Apps\\Java_47_FileFolderDelete\\F2.txt");
+		
+		//Xoa thu muc rong + tap tin:
+		file0.deleteOnExit(); //ko xoa duoc vi co file con
+		file1.deleteOnExit(); //xoa duoc vi rong
+		file2.deleteOnExit(); //xoa duoc vi la tap tin txt
+		System.out.println(file0.delete()); //false vi co file con
+		System.out.println(file1.delete()); //true vi rong
+	}
+}

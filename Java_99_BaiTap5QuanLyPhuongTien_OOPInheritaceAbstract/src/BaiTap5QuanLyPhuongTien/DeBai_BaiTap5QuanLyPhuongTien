@@ -1,0 +1,15 @@
+OOP Basic + Inheritance + Abstract
+Đề bài:
+
+- Hãng sản xuất: tên hãng, tên quốc gia
+- Phương tiện di chuyển: tên loại phương tiện, hãng sản xuất
+- Phương tiện di chuyển: Máy bay, xe oto, xe đạp
+- Phương tiện di chuyển: bắt đầu, tăng tốc, dừng lại
+- Máy bay: loại nhiên liệu, cất cánh, hạ cánh
+- Xe oto: loại nhiên liệu
+
+Yêu cầu:
+- Lấy tên hãng sản xuất
+- Tính vận tốc máy bay
+- Tính vận tốc xe oto
+- Tính vận tốc xe đạp

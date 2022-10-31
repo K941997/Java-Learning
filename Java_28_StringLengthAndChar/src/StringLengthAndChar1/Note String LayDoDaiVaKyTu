@@ -1,0 +1,6 @@
+String:
+- Ghép chuỗi: dùng toán tử + và +=
+- String: bất biến
+- StringBuffer: khả biến, multi-thread
+- StringBuilder: khả biến, single-thread
+- Là đối tượng Obj, không phải mảng ký tự

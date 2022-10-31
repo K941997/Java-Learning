@@ -1,0 +1,10 @@
+OOP Basic
+Đề bài:
+- Máy tính: Hãng, ngày sx, giá, thời gian bảo hành tính theo tháng
+- Ngày sx: ngày, tháng, năm
+- Hãng sx: tên hãng, quốc gia
+- Quốc gia: mã quốc gia, tên quốc gia
+
+Yêu cầu:
++ Kiểm tra 1 máy tính có giá bán thấp hơn 1 máy tính khác không
++ Cho biết tên quốc gia sản xuất máy tính

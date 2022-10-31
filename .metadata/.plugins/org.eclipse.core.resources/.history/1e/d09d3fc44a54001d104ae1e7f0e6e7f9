@@ -1,0 +1,11 @@
+package Generic2BoxGeneric;
+
+/*
+ * Generic:
+ * 		- Dùng để gán dữ liệu, ép kiểu, đổi sang kiểu dữ liệu mới
+ * */
+
+//Box Generic:
+public class BoxGeneric {
+	
+}

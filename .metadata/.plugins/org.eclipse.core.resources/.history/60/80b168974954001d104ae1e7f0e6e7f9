@@ -1,0 +1,26 @@
+package Generic1;
+
+/*
+ * Generic:
+ * 		- Dùng để gán dữ liệu, ép kiểu, đổi sang kiểu dữ liệu mới
+ * */
+
+
+//Box1 chua Generic:
+public class Box1 {
+	private int value;
+
+	public Box1(int value) {
+		this.value = value;
+	}
+
+	public int getValue() {
+		return value;
+	}
+
+	public void setValue(int value) {
+		this.value = value;
+	}
+	
+	
+}

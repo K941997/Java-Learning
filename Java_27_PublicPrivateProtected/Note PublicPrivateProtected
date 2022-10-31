@@ -1,0 +1,4 @@
+Public, Private, Protected:
+- Public truy cập ở mọi nơi
+- Private truy cập trong 1 Class
+- Protected truy cập trong nhiều Class, Package (Class phải extends), SubClass

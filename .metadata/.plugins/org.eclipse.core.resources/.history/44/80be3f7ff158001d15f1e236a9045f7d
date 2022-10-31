@@ -1,0 +1,13 @@
+package ReadTextFromFile1;
+
+import java.io.File;
+
+/*
+ * Read Text From File:
+ * */
+
+public class Example {
+	public static void main(String[] args) {
+		File file1 = new File("D:\\1_K941997_Java\\Apps\\Java_50_IOReadTextFromFile\\file1.txt");
+	}
+}
