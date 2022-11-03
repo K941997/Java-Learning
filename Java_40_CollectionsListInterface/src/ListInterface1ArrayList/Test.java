@@ -31,7 +31,7 @@ public class Test {
 			);
 			
 			luaChon = sc.nextInt();
-			sc.nextLine(); //Chen` them khong bi du phim Enter
+			sc.nextLine(); //Xuong dong
 			
 			if(luaChon == 1) {
 				System.out.println("Nhap ma sinh vien: ");
@@ -56,10 +56,8 @@ public class Test {
 			} else if(luaChon == 3) {
 				System.out.println("Danh sach rong: " +danhSachSinhVien.kiemTraDanhSachRongHayKhong());
 				
-				
 			} else if(luaChon == 4) {
 				System.out.println("So luong sinh vien: " +danhSachSinhVien.laySoLuongSinhVien());
-				
 				
 			} else if(luaChon == 5) {
 				System.out.println("Lam rong danh sach: ");
@@ -69,17 +67,20 @@ public class Test {
 				System.out.println("Nhap ma sinh vien: " );
 				String maSinhVien = sc.nextLine();
 				SinhVien sv = new SinhVien(maSinhVien);
-				System.out.println("Sinh vien co ton tai: " +danhSachSinhVien.kiemTraTonTai(sv));
+				System.out.println("Kiem tra sinh vien co ton tai: " +danhSachSinhVien.kiemTraTonTai(sv));
+			
 			} else if(luaChon == 7) {
 				System.out.println("Nhap ma sinh vien: ");
 				String maSinhVien = sc.nextLine();
 				SinhVien sv = new SinhVien(maSinhVien);
-				System.out.println("Xoa sinh vien: " +danhSachSinhVien.xoaKhoiDanhSach(sv));
+				System.out.println("Kiem tra xoa sinh vien: " +danhSachSinhVien.xoaKhoiDanhSach(sv));
+			
 			} else if(luaChon == 8) {
 				System.out.println("Ten sinh vien: ");
 				String tenSinhVien = sc.nextLine();
 				System.out.println("Tim kiem tat ca sinh vien dua tren ten: ");
-				danhSachSinhVien.timTatCaTenSinhVien(tenSinhVien);
+				danhSachSinhVien.timTatCaSinhVienTheoTen(tenSinhVien);
+			
 			} else if(luaChon == 9) {
 				System.out.println("Hien thi sinh vien diem cao den thap: ");
 				danhSachSinhVien.hienThiSinhVienDiemCaoDenThap();

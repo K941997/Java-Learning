@@ -1,0 +1,6 @@
+Note IO Save Object To File:
+
+ * - Create Obj SinhVien
+ * - Create Collection List Interface (ArrayList):
+ * - Save Obj To File = Serializable, OutputStream, FileOutputStream
+ * - writeObject() + flush() + close()

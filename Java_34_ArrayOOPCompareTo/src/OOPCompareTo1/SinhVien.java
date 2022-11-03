@@ -1,5 +1,9 @@
 package OOPCompareTo1;
 
+/*
+ * OOP CompareTo so sanh theo thu tu >, <, = cho doi tuong
+ * */
+
 public class SinhVien implements Comparable<SinhVien> {
 	private int maSinhVien;
 	private String hoVaTen;
@@ -58,10 +62,9 @@ public class SinhVien implements Comparable<SinhVien> {
 		}
 	}
 	
-	//OOPCompareTo:
+	//OOP CompareTo so sanh theo thu tu >, <, =:
 	@Override
 	public int compareTo(SinhVien sinhVienKhac) {
-		//So sanh ten:
 		String tenSinhVien = this.getTen();
 		String tenSinhVienKhac = sinhVienKhac.getTen();
 		

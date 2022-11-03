@@ -18,7 +18,6 @@ public class DanhSachSinhVien {
 	}
 
 	public DanhSachSinhVien(ArrayList<SinhVien> danhSachSinhVien) {
-		super();
 		this.danhSachSinhVien = danhSachSinhVien;
 	}
 	
@@ -61,7 +60,7 @@ public class DanhSachSinhVien {
 	}
 	
 	//8. Tim kiem tat ca sinh vien dua tren ten nhap tu ban phim:
-	public void timTatCaTenSinhVien(String tenSV) {
+	public void timTatCaSinhVienTheoTen(String tenSV) {
 		for(SinhVien sv: danhSachSinhVien) {
 			if(sv.getHoVaTen().indexOf(tenSV) >= 0) {
 				System.out.println(sv);

@@ -1,7 +1,0 @@
-package Generic2BoxGeneric;
-
-public class TestBoxGeneric {
-	public static void main(String[] args) {
-		BoxGeneric Box1 = new BoxGeneric<Integer>(15);
-	}
-}

@@ -1,5 +1,9 @@
 package OOPCompareTo1;
 
+/*
+ * OOP CompareTo so sanh theo thu tu >, <, = cho doi tuong
+ * */
+
 public class Test {
 	public static void main(String[] args) {
 		SinhVien sv1 = new SinhVien(100, "Cuong", "Lop 1", 9);

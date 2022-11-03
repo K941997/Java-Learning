@@ -14,12 +14,10 @@ public class SinhVien implements Comparable<SinhVien> {
 	private float diemTrungBinh;
 	
 	public SinhVien(String maSinhVien) {
-		super();
 		this.maSinhVien = maSinhVien;
 	}
 
 	public SinhVien(String maSinhVien, String hoVaTen, int namSinh, float diemTrungBinh) {
-		super();
 		this.maSinhVien = maSinhVien;
 		this.hoVaTen = hoVaTen;
 		this.namSinh = namSinh;
@@ -64,9 +62,9 @@ public class SinhVien implements Comparable<SinhVien> {
 				+ ", diemTrungBinh=" + diemTrungBinh + "]";
 	}
 
+	//So sanh theo thu tu >, <, =:
 	@Override
-	public int compareTo(SinhVien o) { //so sanh > < = 
-		// TODO Auto-generated method stub
+	public int compareTo(SinhVien o) { //so sanh sap xep theo ma sinh vien
 		return this.maSinhVien.compareTo(o.maSinhVien);
 	}
 
@@ -75,6 +73,7 @@ public class SinhVien implements Comparable<SinhVien> {
 		return Objects.hash(diemTrungBinh, hoVaTen, maSinhVien, namSinh);
 	}
 
+	//So sanh =, ton tai:
 	@Override
 	public boolean equals(Object obj) { //so sanh =, ton tai (theo ma sinh vien)
 		if (this == obj)
@@ -86,8 +85,5 @@ public class SinhVien implements Comparable<SinhVien> {
 		SinhVien other = (SinhVien) obj;
 		return Objects.equals(maSinhVien, other.maSinhVien);
 	}
-	
-	
-	
 	
 }

@@ -1,3 +1,3 @@
 OOP CompareTo:
-- Phương thức so sánh >, <, =, cho đối tượng
+- Phương thức so sánh theo thứ tự >, <, = cho đối tượng
 - Muốn sử dụng phải implements Comparable<>
