@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/Java_21_OOPInheritanceKeThuaDaHinh/src/OOPInheritance2_MultilevelInheritance/Test.java"/>
+        <listEntry value="/Java_21b_OOPInheritanceKeThuaDaHinh/src/OOPInheritance2_MultilevelInheritance/Test.java"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>
@@ -9,5 +9,5 @@
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="OOPInheritance2_MultilevelInheritance.Test"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value=""/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Java_21_OOPInheritanceKeThuaDaHinh"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Java_21b_OOPInheritanceKeThuaDaHinh"/>
 </launchConfiguration>

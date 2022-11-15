@@ -1,6 +1,0 @@
-Array Split:
-- Dùng thư viện Util.Arrays
-
-- Array Split(" "): cắt từng phần tử của chuỗi
-- Array Split(","): cắt phần tử theo dấu phẩy
-- Array Split("\\.|\\,"): cắt phần tử theo dấu chấm . hoặc dấu phẩy ,

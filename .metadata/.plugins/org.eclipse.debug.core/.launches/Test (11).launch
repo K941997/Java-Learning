@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/Java_23_OOPOverloadingMethod/src/OOPOverloading1/Test.java"/>
+        <listEntry value="/Java_21d_OOPOverloadingMethod/src/OOPOverloading1/Test.java"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>
@@ -9,5 +9,5 @@
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="OOPOverloading1.Test"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value=""/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Java_23_OOPOverloadingMethod"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Java_21d_OOPOverloadingMethod"/>
 </launchConfiguration>

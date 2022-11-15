@@ -3,7 +3,7 @@ package SaveTextToFile1;
 import java.io.PrintWriter;
 
 /*
- * Print Text To File:
+ * Save/Print Text To File:
  * - Try/catch
  * - Create PrintWriter pw File - file
  * - pw.println("abc" | 3.14 | Obj) - print text to file

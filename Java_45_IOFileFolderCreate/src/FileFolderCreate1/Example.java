@@ -30,7 +30,7 @@ public class Example {
 	public static void main(String[] args) {
 		
 		//Tao file:
-		File file1 = new File("D:\\1_K941997_Java\\Apps\\Java_45_FileFolder");
+		File file1 = new File("D:\\1_K941997_Java\\Apps\\Java_45_IOFileFolderCreate");
 		File file2 = new File("D:\\1_K941997_Java\\Apps\\Java_46_FileFolder");
 		
 		//Kiem tra ton tai:
@@ -38,16 +38,16 @@ public class Example {
 		System.out.println("Kiem tra file2 ton tai hay khong: " +file2.exists()); //false
 		
 		//Tao 1 folder mkdir():
-		File folder1Le = new File("D:\\1_K941997_Java\\Apps\\Java_45_FileFolder\\Folder1");
+		File folder1Le = new File("D:\\1_K941997_Java\\Apps\\Java_45_IOFileFolderCreate\\Folder1");
 		folder1Le.mkdir();
 		
-		//Tao nhieu folder mkdirs():
-		File folder2Nhieu = new File("D:\\1_K941997_Java\\Apps\\Java_45_FileFolder\\Folder2\\Folder3\\Folder4\\Folder5");
+		//Tao nhieu folder con mkdirs():
+		File folder2Nhieu = new File("D:\\1_K941997_Java\\Apps\\Java_45_IOFileFolderCreate\\Folder2\\Folder3\\Folder4\\Folder5");
 		folder2Nhieu.mkdirs();
 		
 		//Tao file mo rong (.exe, .txt, .doc):
-		File file1MoRong = new File("D:\\1_K941997_Java\\Apps\\Java_45_FileFolder\\Folder1\\File1MoRong.txt");
-		File file2MoRong = new File("D:\\1_K941997_Java\\Apps\\Java_45_FileFolder\\Folder1\\File2MoRong.doc");
+		File file1MoRong = new File("D:\\1_K941997_Java\\Apps\\Java_45_IOFileFolderCreate\\Folder1\\File1MoRong.txt");
+		File file2MoRong = new File("D:\\1_K941997_Java\\Apps\\Java_45_IOFileFolderCreate\\Folder1\\File2MoRong.doc");
 		try {
 			file1MoRong.createNewFile();
 			file2MoRong.createNewFile();

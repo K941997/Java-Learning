@@ -1,7 +1,0 @@
-String Find:
-- indexOf: tìm kiếm từ trái sang phải
-	+ s1.indexOf(s2) tìm kiếm String s2 trong String s1
-	+ s1.indexOf(s2, 2) tìm kiếm String s2 trong String s1 từ vị trí thứ 2
-	+ s1.indexOf(c1) tìm kiếm Char c1 trong String s1
-	+ s1.indexOf(c1, 2) tìm kiếm Char c1 trong String s1 từ vị trí thứ 2
-- lastIndexOf: tìm kiếm từ phải sang trái
